@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
   console.log(priceHot);
   priceHot.forEach(price => {
     if(price.className.includes('hot')){
-      price.className += '';
+      price.textContent += ' 🔥';
     }
   })
 });
